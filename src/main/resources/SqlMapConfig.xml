@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 引dtd约束 -->
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--SSM整合的过程中,Mybatis的全局配置文件中别名定义-->
+    <typeAliases>
+            <package name="com.itgaoshu.bean"/>
+    </typeAliases>
+</configuration>
